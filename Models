@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T17:26:16.808Z" agent="5.0 (X11)" version="14.2.5" etag="fYQ1thsm7lIn4NrTM2rx" type="github"><diagram id="Duc1jVcxyDue7TWFu45Z">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-20T17:41:43.951Z" agent="5.0 (X11)" etag="slb1WrbyZZrWqk4qx8Av" version="14.2.5" type="github">
+  <diagram id="Duc1jVcxyDue7TWFu45Z" name="Page-1">
+    <mxGraphModel dx="1102" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sATbRf55w8iWrdsi2yzs-1" value="Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="sATbRf55w8iWrdsi2yzs-2" value="-Name: str&#xa;-Price: int&#xa;-Number: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sATbRf55w8iWrdsi2yzs-1">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sATbRf55w8iWrdsi2yzs-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sATbRf55w8iWrdsi2yzs-1">
+          <mxGeometry y="80" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sATbRf55w8iWrdsi2yzs-4" value="+AddProduct()&#xa;+SubtractProduct()&#xa;+EditProduct()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sATbRf55w8iWrdsi2yzs-1">
+          <mxGeometry y="88" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="sATbRf55w8iWrdsi2yzs-5" value="Client" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sATbRf55w8iWrdsi2yzs-6" value="-Name: str&#xa;-Interests: str&#xa;-PhoneNumber: int&#xa;-Email: str&#xa;-IDnumber: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sATbRf55w8iWrdsi2yzs-5">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="sATbRf55w8iWrdsi2yzs-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sATbRf55w8iWrdsi2yzs-5">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sATbRf55w8iWrdsi2yzs-8" value="+AddClient()&#xa;+DeleteClient()&#xa;+EditClient()&#xa;+&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sATbRf55w8iWrdsi2yzs-5">
+          <mxGeometry y="108" width="160" height="62" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
