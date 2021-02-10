@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.conf.global_settings import MEDIA_URL
 import requests
+from .models import Employee
 
 # Create your views here.
 def generate_image(request):
@@ -19,3 +20,7 @@ def generate_image(request):
   return JsonResponse(data={
     "path": MEDIA_URL + filename
   })
+
+def view_people(request):
+  people = Employee.objects.all()
+  return render(request, "people.html", {"people": people})
